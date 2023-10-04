@@ -3,9 +3,9 @@ using Ingniq.ShapeUtils.GeometricMeasurements;
 
 namespace Ingniq.ShapeUtils.Shapes
 {
-	public class ShapeFactory
-	{
-		public static Shape CreateShape(IShapeParameters shapeParameters)
+    public class ShapeFactory
+    {
+        public static Shape CreateShape(IShapeParameters shapeParameters)
         {
             return shapeParameters.Type switch
             {
