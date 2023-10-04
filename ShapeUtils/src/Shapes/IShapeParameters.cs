@@ -1,4 +1,3 @@
-
 namespace Ingniq.ShapeUtils.Shapes
 {
     public interface IShapeParameters

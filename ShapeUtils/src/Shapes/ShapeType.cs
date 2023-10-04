@@ -1,5 +1,4 @@
-﻿
-namespace Ingniq.ShapeUtils.Shapes
+﻿namespace Ingniq.ShapeUtils.Shapes
 {
     public enum ShapeType
     {

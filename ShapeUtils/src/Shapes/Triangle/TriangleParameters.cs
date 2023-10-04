@@ -1,4 +1,3 @@
-
 using Ingniq.ShapeUtils.GeometricMeasurements;
 using Ingniq.ShapeUtils.Shapes;
 

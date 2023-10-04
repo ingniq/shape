@@ -1,5 +1,4 @@
-﻿
-using Ingniq.ShapeUtils.GeometricMeasurements;
+﻿using Ingniq.ShapeUtils.GeometricMeasurements;
 
 namespace Ingniq.ShapeUtils.Shapes
 {
