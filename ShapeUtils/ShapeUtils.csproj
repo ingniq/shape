@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0</Version>
+    <Authors>Igor Filatov</Authors>
+    <Company>Sole Proprietorship</Company>
+    <Product>ShapeUtils</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <PackageId>ShapeUtils.04.10.23.001.Test</PackageId>
+    <PackageDescription>ShapeUtils is a library for performing various operations on geometric shapes for .NET</PackageDescription>
+    <PackageProjectUrl>https://github.com/ingniq/shape</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ingniq/shape</RepositoryUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\GeometricMeasurements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\GeometricMeasurements\" />
+  </ItemGroup>
+</Project>
