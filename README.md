@@ -89,7 +89,7 @@ public Triangle(Side sideA, Side sideB, Angle angleAB) {}
 public Triangle(Side side, Angle angle1, Angle angle2) {}
 ```
 
-Что касается фабричного метода, то итоге получаем следующее:
+Что касается фабричного метода, то в итоге получаем следующее:
 ```csharp
 public static Shape CreateShape(IShapeParameters shapeParameters)
 {
