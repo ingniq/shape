@@ -11,7 +11,8 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Package">
-    <PackageId>ShapeUtils.04.10.23.001.Test</PackageId>
+    <PackageId>ShapeUtils.04.10.23.001</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageDescription>ShapeUtils is a library for performing various operations on geometric shapes for .NET</PackageDescription>
     <PackageProjectUrl>https://github.com/ingniq/shape</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ingniq/shape</RepositoryUrl>
@@ -23,5 +24,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\GeometricMeasurements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
